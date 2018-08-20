@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="weather()">
+    <main>
+        <div class="container hero">
+            <div class="row first">
+
+                <div class="col-xs-12 col-sm-4 display__weather__info">
+
+                    <h2 class="text-center text-uppercase" id="day__info"></h2>
+
+                    <div class="weather_report">
+                        
+
+                    </div>
+                    <div class="weather-con center-block" id="main-weather-condition" ></div>
+                    <div class="temperature_info text-center">
+                        <span id="max-temp">
+
+                        </span>
+
+                        <span id="min-temp">
+
+
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-8 display__location_info">
+
+                    <div class="menu_icon pull-right">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+
+                    </div>
+                    <p class="hero__greeting" id="greeting"></p>
+                    <select id="Location" onchange="weather()">
+                        <option value="Bengaluru">Bengaluru</option>
+                        <option value="Mangalore">Mangalore</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Goa">Goa</option>
+
+                        <option value="Delhi">Delhi</option>
+
+                        
+                    </select>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 week_info">
+                    <div class="col-sm-2 text-center">
+                        <p id="tue"></p>
+                       
+                        <div id="tue-weather-condition" class="weather-con"></div>
+
+                        <div class="temperature">
+                        <span id="tue-max-temp">
+
+                            </span>
+                            <span id="tue-min-temp">
+    
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-2 text-center">
+                        <p id="wed"></p>
+                        
+                        <div id="wed-weather-condition"></div>
+                        <div class="temperature">
+                        <span id="wed-max-temp">
+
+                            </span>
+                            <span id="wed-min-temp">
+    
+                            </span>
+                        </div>
+
+
+                    </div>
+                    <div class="col-sm-2 text-center">
+                        <p id="thu"></p>
+                       
+                        <div id="thu-weather-condition" class="weather-con"></div>
+                        <div class="temperature">
+                        <span id="thu-max-temp">
+
+                            </span>
+                            <span id="thu-min-temp">
+    
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-2 text-center">
+                        <p id="fri"></p>
+                        
+                        <div id="fri-weather-condition" class="weather-con"></div>
+
+                        <div class="temperature">
+                        <span id="fri-max-temp">
+
+                            </span>
+                            <span id="fri-min-temp">
+    
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-2 text-center">
+                        <p id="sat"></p>
+                       
+                        <div id="sat-weather-condition" class="weather-con" ></div>
+                        <div class="temperature">
+
+                        <span id="sat-max-temp">
+
+                            </span>
+                            <span id="sat-min-temp">
+    
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 text-center">
+                        <p id="sun"></p>
+                       
+                        <div id="sun-weather-condition" class="weather-con"></div>
+                        <div class="temperature">
+
+                        <span id="sun-max-temp">
+
+                            </span>
+                            <span id="sun-min-temp">
+    
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>
