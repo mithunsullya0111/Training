@@ -1,0 +1,508 @@
+.header
+{
+    background: white;
+    border: none;
+    
+}
+
+.header-border
+{
+    border:none;
+    opacity:0.7;
+}
+
+.header-logo
+{
+    padding:15px;
+    
+}
+
+
+.logo
+{
+    
+    font-size: 22px;
+    font-weight: 300px;
+    font-family: Roboto,sans-serif;
+    color:black;
+}
+
+
+.navs{
+    padding-top:15px;
+    
+}
+.navs li
+{
+    display:inline-block;
+    padding:10px;
+
+}
+
+.navs li a{
+    color:black;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.navs span{
+    font-size:20px;
+} 
+/*---
+
+span:hover .navs li {
+
+    visibility: visible;
+}
+
+*/
+
+/*-------------------------Page1----------------------*/
+
+
+
+.hero
+{
+    background-image:url('images/header-bg.jpg');
+    padding-bottom:20px;
+    position:relative;
+    margin-top:80px;
+    padding: 100px 0;
+    
+    
+
+}
+
+.hero h1{
+    font-size:57px;
+    font-weight:600;
+    font-family: poppins;
+    padding:0px 100px;
+    color:white;
+    
+}
+
+.heading-seperator
+{
+    height:5px;
+    width:90px;
+    background-color:#ffce55;
+    max-width:100px;
+    margin:auto;
+
+}
+
+.hero-links
+{
+    font-size:20px;
+    color:white;
+    opacity:0.75;
+    padding:30px;
+}
+
+.hero-links li{
+    list-style-type: none;
+    display:inline-block;
+    padding:20px 10px;;
+
+}
+
+.hero-links a{
+    color:white;
+    opacity:0.75;
+
+}
+
+
+.hero-links a:hover{
+    text-decoration: none;
+    
+}
+
+
+/*-------------types*--------*/
+    .cat{
+        padding-top:30px;
+        padding-left:25px;
+        padding-right: 25px;
+    }
+.Aliquam{
+    color: #363636;
+    font-family: Poppins,Arial,sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: capitalize;
+padding-top:0px;
+
+
+}
+
+.image-and-features p
+{
+    font-size: 16px;
+    color:#777;
+   
+    font-weight:400;
+    line-height:28px;
+    padding-bottom: 10px;
+
+}
+
+.image-and-features li
+{
+    font-size:16px;
+    list-style-type:none;
+    padding:15px 0px
+}
+
+
+.aigras{
+    width:100%;
+    height:300px;
+}
+
+.cat  a{
+    color:black;
+    text-decoration: none;
+}
+
+
+/*aside-------------*/
+
+.form
+{
+    padding:15px;
+    background-color: #f9f9f9;
+    border-bottom:1px solid #eee;
+
+}
+
+.search
+{
+    font-size:16px;
+    font-style:italic;
+    border:1px solid #ccc;
+    padding: 10px 5px 10px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+
+}
+
+.aside-recent-post span li
+{
+    list-style-type: none;
+    padding:10px 10px;
+    background:#f9f9f9;
+    border-bottom:1px solid #eeee;
+    line-height:28px;
+    
+}
+
+.aside-recent-post span li a:hover{
+    color:#f2c351;
+    text-decoration: none;
+}
+
+.recents
+{
+    background:#2c3d3d;
+    color:white;
+    padding:10px;
+    margin-top:40px;
+}
+
+.aside-recent-post span li a
+{
+    color:#777;
+}
+
+.aside-recent-post
+{
+    background-color:#f9f9f9;
+    text-decoration: none;
+}
+
+.recent-comments li
+{
+    list-style-type: none;
+    padding:10px 5px 0px 5px;
+}
+
+.recent-comments
+{
+    background:#f9f9f9;
+}
+
+.recent-comments li a
+{
+    color:#2c3d3d;
+    letter-spacing: -.5px;
+}
+
+.recent-comments li a:hover
+{
+    color:#f2c351;
+    text-decoration: none;
+}
+
+
+.archives li{
+    list-style-type: none;
+    padding:8px 10px;
+    
+    border-bottom:1px solid #eeee;
+    line-height:24px;
+
+}
+
+.archives{
+    background-color:#f9f9f9;
+}
+
+.archives li a{
+    color:#777;
+
+}
+
+.archives li a:hover{
+
+    color:#f2c351;
+    
+
+}
+
+
+.aside-style{
+    padding-top:80px;
+}
+
+
+/*footer---------*/
+.footer
+{
+    background:#313233;
+    color:white;
+}
+
+footer p{
+    line-height:1.6;
+    font-size:16px;
+}
+
+.themes a{
+    padding: 10px;
+    color:white;
+}
+
+.themes a:hover{
+    color:#f2c351;
+}
+
+.themes span{
+    font-size:10px;
+}
+
+.recent-post nav li
+{
+    list-style-type:none;
+    margin-left:0px;
+    padding:5px;
+    
+}
+
+nav li a{
+    color:white;
+    
+}
+
+nav li a:hover {
+    color:#f2c351;
+    
+}
+
+
+
+
+.fa {
+    padding: 5px 8px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 1px;
+    border-radius:5px;
+  }
+  
+  .fa:hover {
+      color:#f2c351
+  }
+  
+  .fa-facebook {
+    background: black;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: black;
+    color: white;
+  }
+  .fa-pinterest {
+    background: black;
+    color: white;
+  }
+  
+  
+  
+  .fa-linkedin {
+    background: black;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: black;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: black;
+    color: white;
+  }
+
+
+  @media screen and (max-width: 767px){
+
+    .header
+    {
+        background: white;
+        border: none;
+        
+    }
+    
+    .header-border
+    {
+        border:none;
+        opacity:0.7;
+    }
+    
+    .header-logo
+    {
+        padding:0px;
+        
+    }
+    
+    
+    .logo
+    {
+        
+        font-size: 22px;
+        font-weight: 300px;
+        font-family: Roboto,sans-serif;
+        color:black;
+    }
+    
+    
+    .navs{
+        padding-top:0px;
+        
+    }
+    .navs li
+    {
+        display:inline-block;
+        padding:5px;
+    
+    }
+    
+    .navs li a{
+        color:black;
+        font-weight:bold;
+        text-decoration: none;
+    }
+    
+    .navs span{
+        font-size:15px;
+    }
+
+      
+    .hero h1{
+        font-size:25px;
+        font-weight:200;
+        font-family: poppins;
+        padding:0px 10px;
+        color:white;
+        padding-top:80px;
+    }
+    .hero
+    {
+        background-image:url('images/header-bg.jpg');
+        padding:50px 0;
+        position:relative;
+        margin-top:120px;
+        
+        
+    
+    }
+
+
+    .Aliquam{
+        color: #363636;
+        font-family: Poppins,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        
+        text-transform: capitalize;
+    padding-top:0px;
+    
+    
+    }
+    
+
+    .image-and-features p
+{
+    font-size: 14px;
+    color:#777;
+   
+    font-weight:400;
+    
+    padding-bottom: 10px;
+
+}
+
+
+
+
+
+
+.image-and-features li
+{
+    font-size:14px;
+    list-style-type:none;
+    padding:5px 0px
+}
+
+
+.aigras{
+    width:100%;
+    height:300px;
+}
+
+.cat  a{
+    color:black;
+    text-decoration: none;
+}
+
+.recent-comments h3{
+    font-size: 16px;
+}
+.archives h3
+{
+    font-size: 16px;
+}
+
+.aside-recent-post h3{
+    font-size: 16px;
+
+}
+
+
+  }
