@@ -1,0 +1,239 @@
+@import 'bootstrap/_variables';
+
+.header{
+
+    background-color:$body-bg;
+    padding:5px;
+
+
+    .logo
+    {
+        padding:5px 60px;
+        color:$brand-primary;
+    }
+
+    .logo-img
+    {
+        width:65px;
+    }
+
+
+}
+
+.navbar-default{
+    .navbar-nav{
+        &.navigations
+        {
+     
+          li{
+                 padding:25px;
+                 
+          a{
+             color:$link-color;
+         
+            }
+
+            a:hover{
+                color:$brand-success;
+            }
+     
+         }
+    }
+}
+}
+
+.hero
+{
+   
+    background-image: url('http://futurestudents.csu.edu.au/__data/assets/image/0005/2783957/B_Computer_Science_banner_template_01.jpg');
+    background-position:center;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    margin-bottom:25px;
+
+
+
+}
+
+.hero-heading
+{
+    font-size: $font-size-h1;
+    color:$gray-base;
+}
+
+.hero-content
+{
+    margin:2% auto;
+    max-width:60%;
+    padding:25px;
+    color:$brand-danger;
+    background-color:$body-bg;
+    font-size:$font-size-large;
+}
+
+.banner-image
+{
+    max-width:100%;
+}
+
+
+.sidebar h3
+{
+    color:$brand-danger;
+}
+.sidebar
+{
+    border-bottom:1px solid #777;
+    font-size:$font-size-base;
+    color:#999;
+    padding:10px;
+    text-align:left;
+}
+
+
+// Footer
+
+.footer
+{
+    margin-top:20px;
+    background-color: $navbar-default-link-color;
+
+    h3{
+        font-size: $font-size-h3;
+        color: $body-bg;
+    }
+
+    .footer-image
+    {
+        width:200px;
+    }
+
+    .media-name
+    {
+        color:$body-bg;
+        font-size:$font-size-h2;
+        padding:10px 40px;
+    }
+
+    .desc 
+    {
+        font-size: $font-size-large;
+        color:$body-bg;
+        padding:10px 40px;
+    }
+
+    .contact p{
+        font-size:$font-size-large;
+        color:$body-bg;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+
+      .fa-facebook {
+        background:$gray-base;
+        color: white;
+      }
+      .fa-linkedin {
+        background:$gray-base;
+        color: white;
+      }
+      .fa-instagram {
+        background:$gray-base;
+        color: white;
+      }
+
+}
+
+@media (max-width:$screen-sm)
+{
+
+    .header{
+
+        background-color:$body-bg;
+        padding:5px;
+    
+    
+        .logo
+        {
+            padding:5px 40px;
+            color:$brand-primary;
+        
+    
+        .logo-img
+        {
+            width:40px;
+        }
+    }
+    
+    
+    }
+
+    .navbar-default{
+        .navbar-nav{
+            &.navigations
+            {
+         
+              li{
+                     padding:15px;
+                     
+              a{
+                 color:$link-color;
+             
+                }
+    
+                a:hover{
+                    color:$brand-success;
+                }
+         
+             }
+        }
+    }
+    }
+
+
+    .hero-content
+{
+    margin:5% auto;
+    max-width:95%;
+    border-radius:10px;
+    padding:25px;
+    color:$brand-danger;
+    background-color:$body-bg;
+    font-size:$font-size-base;
+}
+.footer{
+
+.desc 
+    {
+        font-size: $font-size-base;
+        color:$body-bg;
+        padding:10px 40px;
+    }
+
+    .contact p{
+        font-size:$font-size-base;
+        color:$body-bg;
+    }
+
+    .fa {
+        padding: 5px;
+        font-size: 14px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+
+}
+}
+
+
+ 

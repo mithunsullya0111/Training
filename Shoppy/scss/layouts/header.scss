@@ -1,0 +1,73 @@
+
+
+.header-top-right 
+{
+    ul{
+        li{
+            list-style-type: none;
+            display:inline-block;
+            padding:0 10px;
+            
+            
+            a{
+                color:black;
+            }
+        }
+    }
+}
+
+.header{
+    background-color:#777;
+    
+}
+
+.navbar-header
+{
+    a{
+        padding:15px 40px;
+
+        .logo
+        {
+            width:80px;
+        }
+    }
+
+    
+
+}
+
+
+.navbar-default
+{
+    .navbar-nav
+    {
+        li{
+            
+            a{
+                padding:15px;
+                color:#fff;
+
+                
+            
+            }
+
+        }
+    }
+}
+
+.icons
+                {
+                    
+                    font-size:20px;
+                    color:white;
+                }
+               
+
+
+.form-group
+{
+    .search-button
+    {
+        width:300px;
+    }
+}

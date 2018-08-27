@@ -1,0 +1,218 @@
+@import 'layouts/header.scss';
+@import 'layouts/footer.scss';
+@import 'bootstrap/_variables.scss';
+@import 'owl.carousel.min';
+
+
+
+body{
+    background-color: #f9f9f9;
+}
+
+.hero{
+
+   
+    .hero-image{
+        width:100%;
+        
+    }
+}
+
+
+.top-offers
+{
+    margin:15px 20px;
+
+    .top-offer-images
+    {
+       
+        width:100%;
+
+    }
+}
+
+.deals
+{
+    color:$brand-primary;
+    font-size: $font-size-h3;
+}
+
+.deals-slider{
+    padding:  0 30px;
+    .owl-nav{
+        display: block!important; 
+        .owl-prev{
+            position: absolute;
+            top: 30%;
+            border-radius: 50%;
+            background-color:rgb(214, 79, 79);
+            span{
+                font-size:40px;
+                
+            }
+        }
+        .owl-next{
+            position: absolute;
+            top:30%;
+            right: 30px;
+            span{
+                font-size:40px;
+            }
+        }
+    }
+}
+
+
+.new-arrival-slider{
+    padding:  0 30px;
+    .owl-nav{
+        display: block!important; 
+        .owl-prev{
+            position: absolute;
+            top: 30%;
+            border-radius: 50%;
+            background-color:rgb(214, 79, 79);
+            span{
+                font-size:40px;
+                
+            }
+        }
+        .owl-next{
+            position: absolute;
+            top:30%;
+            right: 30px;
+            span{
+                font-size:40px;
+            }
+        }
+    }
+}
+
+
+.shop-by-brand-slider{
+    padding:  0 30px;
+    .owl-nav{
+        display: block!important; 
+        .owl-prev{
+            position: absolute;
+            top: 30%;
+            border-radius: 50%;
+            background-color:rgb(214, 79, 79);
+            span{
+                font-size:40px;
+                
+            }
+        }
+        .owl-next{
+            position: absolute;
+            top:30%;
+            right: 30px;
+            span{
+                font-size:40px;
+            }
+        }
+    }
+}
+
+
+
+
+.items
+{
+   
+    padding:15px;
+    
+    background-color:#fff;
+
+    .zoom:hover
+    {
+        transform:scale(1.05);
+        transition: 0.7s ease all;
+       
+      
+    }
+
+    .discount-price
+    {
+        color:#ff5d73;
+    }
+
+    .product-offer
+    {
+        color:green;
+    }
+}
+
+.items:hover{
+    box-shadow: 1px 1px 5px;
+    border:1px solid $brand-danger;
+
+}
+
+
+.new-arrival-item
+{
+    padding: 20px;
+}
+.item1
+{
+
+    padding:20px;
+    .brand-images
+    {
+        height:130px;
+    }
+}
+
+
+.trending-section{
+    
+    margin-left:40px;
+    margin-right:40px;
+    .head{
+        margin-bottom: 30px;
+    h2{
+        margin-bottom: 15px;
+       font-weight: 600;
+    }
+    .view-all {
+        margin-top:20px;
+        font-size: 18px;
+        color: #ff5d73;
+    }
+}
+
+.item2{
+  
+    .item-details{ 
+        background-color:#fff;
+        margin-bottom:20px;
+        padding:10px;
+        
+        .trending__title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 0;
+            
+        }
+        span{
+            color: #ff5d73;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        
+    
+}
+}
+
+.item-details:hover{
+    border:1px solid $brand-danger;
+    box-shadow:1px 1px 1px;
+}
+}
+
+
+
+
+
