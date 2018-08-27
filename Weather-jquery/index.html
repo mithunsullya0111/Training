@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="container main_content">
+
+            <div class="whole_content">
+
+                <div class="col-xs-12 col-sm-4 hero_day_info">
+                    <h2 class="text-center text-uppercase" id="day__info"></h2>
+
+                    <div class="weather-con center-block" id="main-weather-condition">
+
+                    </div>
+
+                    <div class="temperature_info text-center">
+                        <span id="max-temp">
+
+                        </span>
+
+                        <span id="min-temp">
+
+
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-8 hero_image">
+                    <img src="images/weather.jpg" class="weather_image" alt="">
+
+                    <div id="greeting">
+                    </div>
+                <h2 id="place"></h2>
+
+                    
+                    
+                    <div class="location">
+                            <i class="fa fa-bars bars" style="font-size:36px;"></i>
+
+                        <ul id="lists">
+                            <li><button class="loc_select active" value="Bengaluru">Bengaluru</button></li>
+                            <li><button class="loc_select" value="Mangalore">Mangalore</button></li>
+                            <li><button class="loc_select" value="Mumbai">Mumbai</button></li>
+                            <li><button class="loc_select" value="Goa">Goa</button></li>
+                            <li><button class="loc_select" value="Delhi">Delhi</button></li>
+                            <li><button class="loc_select" value="Chennai">Chennai</button></li>
+
+
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="col-xs-12 week_info">
+                    <div class="col-xs-6 col-sm-4 col-md-2 text-center">
+                        <p id="tue"></p>
+
+                        <div id="tue-weather-condition" class="weather-con center-block"></div>
+
+                        <div class="temperature">
+                            <span id="tue-max-temp">
+
+                            </span>
+                            <span id="tue-min-temp">
+
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 text-center">
+                        <p id="wed"></p>
+
+                        <div id="wed-weather-condition" class="weather-con center-block"></div>
+                        <div class="temperature">
+                            <span id="wed-max-temp">
+
+                            </span>
+                            <span id="wed-min-temp">
+
+                            </span>
+                        </div>
+
+
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 text-center">
+
+                        <p id="thu"></p>
+
+                        <div id="thu-weather-condition" class="weather-con center-block"></div>
+                        <div class="temperature">
+                            <span id="thu-max-temp">
+
+                            </span>
+                            <span id="thu-min-temp">
+
+                            </span>
+                        </div>
+
+
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 text-center">
+
+                        <p id="fri"></p>
+
+                        <div id="fri-weather-condition" class="weather-con center-block"></div>
+                        <div class="temperature">
+                            <span id="fri-max-temp">
+
+                            </span>
+                            <span id="fri-min-temp">
+
+                            </span>
+                        </div>
+
+
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 text-center">
+
+                        <p id="sat"></p>
+
+                        <div id="sat-weather-condition" class="weather-con center-block"></div>
+                        <div class="temperature">
+                            <span id="sat-max-temp">
+
+                            </span>
+                            <span id="sat-min-temp">
+
+                            </span>
+                        </div>
+
+
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 text-center">
+
+                        <p id="sun"></p>
+
+                        <div id="sun-weather-condition" class="weather-con center-block"></div>
+                        <div class="temperature">
+                            <span id="sun-max-temp">
+
+                            </span>
+                            <span id="sun-min-temp">
+
+                            </span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>

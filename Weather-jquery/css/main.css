@@ -1,0 +1,122 @@
+
+.main_content
+{
+margin-top: 30px;
+}
+
+.hero_day_info
+{
+    background-color: blue;
+
+height:400px;
+}
+
+.hero_image
+{
+    padding: 0;
+    margin: 0;
+position: relative;
+}
+
+.weather_image
+{
+max-width: 100%;
+
+}
+
+#day__info
+{
+    height: 50px;
+}
+
+.weather-con
+{
+height:180px;
+width:180px;
+}
+
+#greeting
+{
+    font-size: 20px;
+    font-weight: 800;
+    top:30px;
+    left:30px;
+
+   position: absolute;
+
+}
+
+.location
+{
+position: absolute;
+top:60px;
+right:30px;
+
+}
+
+.temperature_info
+{
+padding:30px;
+}
+
+.temperature_info span
+{
+    padding:0 20px;
+    font-size :20px;
+}
+
+.main_content
+{
+border:10px solid maroon;
+padding-left: 0;
+padding-right: 0;
+}
+
+.week_info
+{
+    padding-left: 0;
+}
+
+.week_info p
+{
+color:blue;
+font-size:18px;
+}
+
+
+.fa
+{
+    font-size:20px;
+}
+
+.temperature span{
+    font-size:18px;
+    border-right:2px solid black;
+    padding:0px 14px 0px ;
+}
+.temperature span:last-child{
+    font-size:18px;
+    
+    border-right:none;
+}
+
+#lists
+{
+ display: none;
+ position: absolute;
+ top:30px;
+ right:40px;
+
+}
+
+#lists li
+{
+    list-style-type: none;
+}
+
+#place
+{
+    position: absolute;
+    top:40px;
+    left:30px;
+}
